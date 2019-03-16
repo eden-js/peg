@@ -31,7 +31,7 @@ class PegTask {
    */
   async run(files) {
     let job = gulp.src(files)
-      .pipe(pegjs());
+      .pipe(pegjs({ format: 'commonjs' }));
 
     job = job.pipe(rename((path) => {
       // Change @module/bundles/bundle/peg/parser.pegjs to bundle/parser.pegjs
