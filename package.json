@@ -4,7 +4,7 @@
   "version": "1.0.2",
   "dependencies": {
     "gulp-pegjs": "^0.1.0",
-    "gulp-rename": "^1.4.0"
+    "gulp-rename": "^2.0.0"
   },
   "engines": {
     "node": ">= 8.0.0"
